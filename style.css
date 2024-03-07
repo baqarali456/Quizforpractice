@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: #a142f5;
+    width: 51vw;
+    min-height: 62vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#question{
+    margin-bottom: 1.4rem;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.answers-list{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.answers{
+   cursor: pointer;
+    width: 102%;
+    margin: 0.3rem 0;
+    background-color: #e6f542;
+    color: black;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  padding-left: 0.7rem;
+}
+.answers img{
+    width: 4%;
+    height: 4%;
+    margin-left: 1rem;
+    display: none;
+}
+img.active{
+    display: inline;
+}
+#next-btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 0.4rem;
+    width: 4vw;
+    height: 7vh;
+    background-color: #3477eb;
+    color: #fff;
+    border: none;
+    outline: none;
+}
