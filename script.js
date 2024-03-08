@@ -94,22 +94,15 @@ next_btn.addEventListener('click', function (e) {
     } 
 });
 
-// answers_list.addEventListener('click',(e)=>{
-//   if(e.target.classList.contains('answers')){
-//     document.querySelectorAll('img').forEach(ele=>{
-//         ele.classList.add('active');
-//     });
-//   }
-// });
-
-const answers = document.querySelectorAll('.answers');
-
-answers.forEach(element => {
-    element.addEventListener('click',()=>{
-        console.log(element);
-        
+answers_list.addEventListener('click',(e)=>{
+  if(e.target.classList.contains('answers')){
+    document.querySelectorAll('img').forEach(ele=>{
+        ele.classList.add('active');
     });
+  }
 });
+
+
 
 
 
